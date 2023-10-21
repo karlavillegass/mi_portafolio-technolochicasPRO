@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <!-- Link al css de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Link a iconos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- Poner contenedores es importante para que nuestro contenido sea responsivo <3 -->
+    <div class="container">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img
+            class="mx-2"
+            src="images/encabezado.png"
+            alt="Logo"
+            width="40"
+            height="40"
+          />
+          <span class="fs-4 text-danger-emphasis">Mi Portafolio</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#sobremi" class="nav-link text-danger-emphasis">Sobre mí</a></li>
+          <li class="nav-item"><a href="#Proyectos" class="nav-link text-danger-emphasis">Proyectos</a></li>
+          <li class="nav-item"><a href="#Habilidades" class="nav-link text-danger-emphasis">Habilidades</a></li>
+          <li class="nav-item"><a href="#Contacto" class="nav-link text-danger-emphasis">Contacto</a></li>
+        </ul>
+      </header>
+
+      <section id="sobremi" class="vh-100 row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src="images/perfil.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="200" loading="lazy">
+          </div>
+          <div class="col-lg-6 text-center">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-danger-emphasis">Karla Itzel Villegas Salazar</h1>
+            <p class="lead">Apasionada en todo lo que hago, dispuesta siempre a enfrentar desafíos y amante de todo lo que indique transformación digital y accesibilidad para lograr una verdadera inclusión.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-center">
+              <button type=" button" class=" btn btn-danger btn-lg px-4 me-md-2">Sobre mí</button>
+              <ul class="nav justify-content-end list-unstyled d-flex">
+                <a class="fs-2 text-danger-emphasis" target="_blank" href="https://github.com/karlavillegass">
+                    <li class="bi bi-github ms-3"></li>
+                    <a class="fs-2 text-danger-emphasis" target="_blank" href="https://www.linkedin.com/in/karla-villegas-5a18a5277">
+                        <li class="bi bi-linkedin ms-3"></li>    
+              </ul>
+            </a>
+            </div>
+          </div>
+      </section>
+
+      <section id="Proyectos" class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom text-danger-emphasis">Mis Proyectos</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(images/sugar_sweet_cakes.jpg) ;  background-size: cover; background-repeat: no-repeat; background-position: left;" >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 text-warning mb-4 display-6 lh-1 fw-bold">  Página web: Venta de pasteles </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <a class="fs-2 text-danger-emphasis" target="_blank" href="https://karlavillegass.github.io/">
+                        <li class="bi bi-hand-index-thumb ms-3"></li>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(images/portafolio.jpg); background-size: cover; background-repeat: no-repeat; background-position: left;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 text-body-tertiary mb-4 display-6 lh-1 fw-bold">Portafolio de evidencias</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <a class="fs-2 text-danger-emphasis" target="_blank" >
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto"></li>
+                  <li class="d-flex align-items-center me-3">
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Habilidades" class="container px-4 py-5">
+        <div class="container px-4 py-5" id="hanging-icons">
+          <h2 class="pb-2 border-bottom">Hanging icons</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <a href="#" class="btn btn-primary">
+                  Primary button
+                </a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <a href="#" class="btn btn-primary">
+                  Primary button
+                </a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <a href="#" class="btn btn-primary">
+                  Primary button
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </section>
+
+
+      <section id="Contacto" class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 text-danger-emphasis mb-3">Contáctame</h1>
+          <p class="col-lg-10 fs-4">Si estás interesado en colaborar en equipo, por favor, déjame tu correo electrónico en este espacio para que pueda contactarte.</p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Correo electrónico</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Por favor, déjame una nota</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary text-danger-emphasis"
+            >© 2023 Karla Villegas, Tecnolochicas PRO</span
+          >
+        </div>
+        <!-- Iconos dentro del footer -->
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <a class="fs-2 text-danger-emphasis" target="_blank" href="https://instagram.com/coralineeeeee__?igshid=OGQ5ZDc2ODk2ZA==">
+                <li class="bi bi-instagram ms-3"></li>
+            </a>
+            <a class="fs-2 text-danger-emphasis" target="_blank" href="https://twitter.com/alrakleylk25?t=jNACQSdHjaHECFpaNreQEA&s=08">
+                <li class="bi bi-twitter-x ms-3"></li>
+            </a>
+            <a class="fs-2 text-danger-emphasis" target="_blank" href="https://www.facebook.com/profile.php?id=100011391681417&mibextid=ZbWKwL">
+                <li class="bi bi-facebook ms-3"></li>
+            </a>
+        </ul>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
