@@ -8,7 +8,7 @@ Incluye las secciones: sobre mí, proyectos, experiencia.
 
 Incluye recursos multimedia.
 
-<a href="https://jovial-zuccutto-f60209.netlify.app/" target="_blank">**Visitalo ahora** 🚀</a>
+<a href= >**Visitalo ahora** 🚀</a>
 # Secciones (capturas de pantalla)
 
 Sobre mí:
@@ -28,4 +28,4 @@ Si estás interesad@ en compartir o conectar para algún proyecto u oportunidad 
 
 <a href="https://www.linkedin.com/in/karla-villegas-5a18a5277"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
 
-© 2023 Malinali (Programa Technolochicas PRO)
+© 2023 Karla Villegas (Programa Technolochicas PRO)
